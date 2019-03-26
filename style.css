@@ -22,7 +22,7 @@ body {
 	flex-direction: row;
 	height: 80%;
 }
-.left, .right{
+.left, .right, .portfolio{
 	margin: 5px;
 	max-width: 50%;
 	flex: 1;
@@ -33,6 +33,10 @@ body {
 .left {
   align-items: center;
   justify-content: center;
+}
+.portfolio{
+	align-items: bottom;
+	justify-content: center;
 }
 .profile-picture{
 	border-radius: 50%;
@@ -53,7 +57,6 @@ body {
 .links a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
-
 
 
 
